@@ -9,3 +9,4 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 # create nginx file
 systemctl restart nginx
+# this is my frontend code
