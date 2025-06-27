@@ -2,7 +2,7 @@ nodejs(){
 dnf module disable nodejs -y
 dnf module enable nodejs:20 -y
 dnf install nodejs -y
-cp ${componet}.service /etc/systemd/system/${component}.service
+cp ${component}.service /etc/systemd/system/${component}.service
 useradd roboshop
 rm -rf /app
 mkdir /app
