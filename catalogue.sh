@@ -11,6 +11,7 @@ unzip /tmp/catalogue.zip
 cd /app
 npm install
 systemctl daemon-reload
+cd ~
 systemctl enable catalogue
 systemctl start catalogue
 dnf install mongodb-mongosh -y
